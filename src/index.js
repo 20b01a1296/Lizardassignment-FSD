@@ -1,17 +1,25 @@
+//import necessary dependencies
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import './styles.css';
+import Component  from './Component.js';
+import lizard from './images/lizard.jpeg';
+//create component
+//function Image(){
+    //return(
+        //<img src={lizard} />
 
+    //)
+//};
+
+
+
+//display
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
+    
+    //<Image />
+    <Component />,
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+    
+      document.getElementById("root")
+  );

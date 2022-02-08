@@ -1,0 +1,14 @@
+h4{
+    color: blue;
+
+}
+img{
+    height: 300px;
+    width: 450px;
+}
+.mydiv{
+    height: 550px;
+    width: 500px;
+    background-color: grey;
+    align-content: center;
+}
